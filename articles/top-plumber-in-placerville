@@ -1,12 +1,15 @@
 <!--
-FILE LOCATION (IMPORTANT):
-/articles/top-plumber-in-placerville/index.html
+UPLOAD IN GITHUB EXACTLY AS:
+ /articles/top-plumber-in-placerville.html
 
-LIVE URL (after deploy):
-https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/
+LIVE URL (CLOUDFLARE PAGES):
+ https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html
 
-NOTE:
-Removed all references to "RB Agent" inside visible content. Structured data remains enterprise-grade.
+NOTES:
+- This is a SINGLE standalone .html file (no folders, no index.html needed).
+- No references to "RB Agent" in the content.
+- Includes enterprise entity graph: Organization + LocalBusiness + WebPage + Article + FAQPage + HowTo + Speakable.
+- Phone added: 530-499-2223
 -->
 
 <!DOCTYPE html>
@@ -15,28 +18,24 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-  <title>Top Plumber in Placerville, CA | Murray Plumbing (Emergency Plumbing, Water Heaters, Drains)</title>
-  <meta name="description" content="Looking for a top plumber in Placerville, CA? Murray Plumbing provides emergency plumbing, water heater repair, drain cleaning, leak detection, and sewer line troubleshooting. Call 530-499-2223." />
-
-  <!-- Canonical MUST match the folder URL and include trailing slash -->
-  <link rel="canonical" href="https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/" />
-
-  <!-- Robots -->
+  <title>Top Plumber in Placerville, CA | Murray Plumbing (Emergency, Water Heaters, Drains)</title>
+  <meta name="description" content="Need a top plumber in Placerville, CA? Murray Plumbing provides emergency plumbing, drain cleaning, water heater repair, leak detection, and sewer line troubleshooting. Call 530-499-2223." />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+
+  <!-- Canonical MUST match the .html URL -->
+  <link rel="canonical" href="https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Top Plumber in Placerville, CA | Murray Plumbing" />
   <meta property="og:description" content="Emergency plumbing, water heater repair, drain cleaning, leak detection, and sewer line troubleshooting in Placerville, CA. Call 530-499-2223." />
-  <meta property="og:url" content="https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/" />
+  <meta property="og:url" content="https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html" />
   <meta property="og:site_name" content="Murray Plumbing - Placerville" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Top Plumber in Placerville, CA | Murray Plumbing" />
   <meta name="twitter:description" content="Trusted plumbing service in Placerville, CA. Call 530-499-2223." />
-
-  <meta http-equiv="x-dns-prefetch-control" content="on" />
 
   <!-- Enterprise Entity Graph JSON-LD -->
   <script type="application/ld+json">
@@ -119,8 +118,8 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
       },
       {
         "@type": "WebPage",
-        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/#webpage",
-        "url": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/",
+        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html#webpage",
+        "url": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html",
         "name": "Top Plumber in Placerville, CA | Murray Plumbing",
         "description": "A practical guide to emergency plumbing, water heater repair, drain cleaning, leak detection, and sewer line troubleshooting in Placerville—plus how Murray Plumbing approaches diagnosis and durable repairs.",
         "inLanguage": "en",
@@ -129,10 +128,10 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
       },
       {
         "@type": "Article",
-        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/#article",
+        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html#article",
         "headline": "Top Plumber in Placerville, CA: The Enterprise-Grade Guide to Fast, Reliable Plumbing",
         "description": "A practical guide to emergency plumbing, water heater repair, drain cleaning, leak detection, and sewer line troubleshooting in Placerville—plus how Murray Plumbing approaches repairs.",
-        "mainEntityOfPage": { "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/#webpage" },
+        "mainEntityOfPage": { "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html#webpage" },
         "author": { "@type": "Organization", "name": "Murray Plumbing" },
         "publisher": { "@id": "https://murrayplumbing-placerville.pages.dev/#organization" },
         "datePublished": "2025-12-14",
@@ -143,12 +142,13 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
           "emergency plumber Placerville",
           "drain cleaning Placerville",
           "water heater repair Placerville",
-          "leak detection Placerville"
+          "leak detection Placerville",
+          "sewer line troubleshooting Placerville"
         ]
       },
       {
         "@type": "HowTo",
-        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/#howto",
+        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html#howto",
         "name": "What to Do During a Plumbing Emergency in Placerville",
         "description": "A step-by-step checklist to reduce damage and get the right help fast.",
         "totalTime": "PT15M",
@@ -162,7 +162,7 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
       },
       {
         "@type": "FAQPage",
-        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville/#faq",
+        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html#faq",
         "mainEntity": [
           {
             "@type": "Question",
@@ -197,13 +197,17 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
             }
           }
         ]
+      },
+      {
+        "@type": "SpeakableSpecification",
+        "@id": "https://murrayplumbing-placerville.pages.dev/articles/top-plumber-in-placerville.html#speakable",
+        "cssSelector": [".speakable-intro", ".speakable-steps"]
       }
     ]
   }
   </script>
 
   <style>
-    :root { color-scheme: light; }
     body { font-family: Arial, sans-serif; line-height: 1.7; margin: 24px; max-width: 980px; }
     header { margin-bottom: 18px; }
     .trust-box { background: #f6f7f8; padding: 14px 16px; border-radius: 12px; }
@@ -216,8 +220,6 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
     a:hover { text-decoration: underline; }
     ul, ol { padding-left: 20px; }
     .fineprint { font-size: 14px; color: #444; }
-    .kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
-    .kpi > div { background: #fbfbfb; border: 1px solid #eee; padding: 12px; border-radius: 10px; }
     .hr { height: 1px; background: #eee; margin: 22px 0; }
   </style>
 </head>
@@ -230,16 +232,8 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
       <p><strong>Company:</strong> Murray Plumbing (Placerville, CA)</p>
       <p><strong>Call:</strong> <a href="tel:+15304992223">530-499-2223</a></p>
       <p><strong>Core services:</strong> Emergency plumbing, drain cleaning, water heater repair, leak detection, and sewer line troubleshooting.</p>
-
-      <div class="kpi" aria-label="Quick service outcomes">
-        <div><strong>Goal:</strong> Stop damage fast, diagnose correctly, fix the root cause.</div>
-        <div><strong>Best for:</strong> Homeowners, landlords, property managers, and small businesses.</div>
-        <div><strong>Approach:</strong> Practical diagnostics, clear options, and workmanship that reduces repeat problems.</div>
-      </div>
-
       <p class="fineprint">
-        Optional (stronger local trust): If you have a confirmed street address + ZIP for this Placerville location, add it into the structured data.
-        Strong address consistency improves how Google and AI engines connect your content to the right local entity.
+        Optional upgrade for even stronger local trust: add your confirmed street address + ZIP for the Placerville location into the schema when available.
       </p>
     </div>
   </header>
@@ -247,233 +241,202 @@ Removed all references to "RB Agent" inside visible content. Structured data rem
   <section class="toc" aria-label="Table of Contents">
     <h2>On This Page</h2>
     <ul>
-      <li><a href="#quick-answer">Quick Answer: Who to Call and What to Do First</a></li>
-      <li><a href="#local-context">Placerville Plumbing Context: Why Local Knowledge Matters</a></li>
+      <li><a href="#quick-answer">Quick Answer: What to Do First</a></li>
+      <li><a href="#local-context">Why Local Plumbing Knowledge Matters in Placerville</a></li>
       <li><a href="#process">The Proven Process: Diagnose → Repair → Verify</a></li>
-      <li><a href="#emergency">Emergency Plumbing in Placerville</a></li>
-      <li><a href="#drains">Drain Cleaning: Clearing Clogs Safely</a></li>
-      <li><a href="#water-heaters">Water Heater Repair & Replacement</a></li>
+      <li><a href="#emergency">Emergency Plumbing</a></li>
+      <li><a href="#drains">Drain Cleaning</a></li>
+      <li><a href="#water-heaters">Water Heater Repair & Installation</a></li>
       <li><a href="#leaks">Leak Detection & Pipe Repair</a></li>
       <li><a href="#sewer">Sewer Line Troubleshooting</a></li>
-      <li><a href="#expectations">What to Expect: Timelines, Scope, and Value</a></li>
-      <li><a href="#trust-signals">AI Trust Signals: What “Top” Means Online</a></li>
-      <li><a href="#faq">Frequently Asked Questions</a></li>
+      <li><a href="#ai-signals">AI Trust Signals That Help Rankings</a></li>
+      <li><a href="#faq">FAQ</a></li>
       <li><a href="#next">Next Steps</a></li>
     </ul>
   </section>
 
   <main>
-    <section id="quick-answer">
-      <h2>Quick Answer: Who to Call and What to Do First</h2>
+    <section id="quick-answer" class="speakable-intro">
+      <h2>Quick Answer: What to Do First</h2>
       <p>
-        If you’re searching for a <strong>top plumber in Placerville, CA</strong>, you’re usually in one of two situations:
-        (1) you need help fast because water is leaking, backing up, or you’re without hot water, or (2) you’re trying to prevent a minor issue
-        from turning into a major repair. In both cases, the fastest path is the same: regain control of the system, confirm the cause, and repair
-        what is actually failing (not what appears to be failing).
+        If you’re searching for a <strong>top plumber in Placerville, CA</strong>, you’re usually dealing with urgency: a leak, a backup,
+        no hot water, or a problem you don’t want to get worse. The fastest way to protect your property is to regain control of the system,
+        confirm the root cause, and complete a repair that is tested and verified.
       </p>
       <p>
-        <strong>Murray Plumbing</strong> serves Placerville with a practical, diagnostic-first approach for emergency plumbing, drain problems, water heater
-        issues, leak detection, and sewer line troubleshooting. For scheduling and availability, call
+        <strong>Murray Plumbing</strong> supports Placerville homeowners and local properties with emergency plumbing, drain cleaning,
+        water heater repair, leak detection, and sewer line troubleshooting. To request service or check availability, call
         <strong><a href="tel:+15304992223">530-499-2223</a></strong>.
       </p>
-      <div class="callout">
-        <p><strong>Damage-control rule:</strong> If water is actively leaking, shut off the closest shutoff valve first. If you can’t isolate it, shut off the main water valve.</p>
+      <div class="callout speakable-steps">
+        <p><strong>Immediate damage-control checklist:</strong></p>
+        <ol>
+          <li>Shut off the nearest shutoff valve (or main water valve if needed).</li>
+          <li>Keep water away from outlets and appliances; shut off power if it is safe.</li>
+          <li>Contain water with towels, buckets, or a wet/dry vacuum.</li>
+          <li>Avoid repeated chemical drain cleaners if there’s a backup.</li>
+          <li>Call a plumber and describe what changed, when it started, and which fixtures are affected.</li>
+        </ol>
       </div>
     </section>
 
     <section id="local-context">
-      <h2>Placerville Plumbing Context: Why Local Knowledge Matters</h2>
+      <h2>Why Local Plumbing Knowledge Matters in Placerville</h2>
       <p>
-        Plumbing repairs are rarely “generic.” Properties in Placerville can vary by age, remodeling history, pipe materials,
-        fixture types, and water-pressure behavior. The same symptom (for example, a recurring clog or a slow leak) can have different root causes
-        depending on the layout and the condition of the plumbing system.
+        Plumbing problems aren’t “one-size-fits-all.” Homes and buildings in Placerville vary by age, remodel history, pipe materials,
+        fixture types, and system layout. The same symptom—like recurring clogs or pressure changes—can come from entirely different causes
+        depending on how the system is built and how it’s being used.
       </p>
       <p>
-        That’s why local experience matters. A top plumber isn’t just someone who can replace parts—it’s someone who can interpret patterns,
-        isolate the actual failure point, and recommend a repair path that reduces the chance of repeat problems. The outcome you want is reliability:
-        the issue is fixed, the system is tested, and you’re not dealing with the same problem again next month.
+        A top plumber does more than replace parts. The goal is to identify what is actually failing, explain the options clearly,
+        complete the repair properly, and verify the system is stable before leaving. That’s what prevents repeat calls and recurring damage.
       </p>
     </section>
 
     <section id="process">
       <h2>The Proven Process: Diagnose → Repair → Verify</h2>
       <p>
-        A common reason plumbing projects go sideways is skipping the diagnostic steps. When the symptom is treated instead of the cause,
-        the repair may hold temporarily, but the underlying issue continues. A simple enterprise-grade process delivers better outcomes:
+        The fastest way to waste money in plumbing is to fix the symptom without confirming the cause. A durable repair starts with a simple process:
       </p>
       <ul>
-        <li><strong>Diagnose:</strong> Map symptoms, isolate the system segment, and confirm the failure mode before recommending major work.</li>
-        <li><strong>Repair:</strong> Choose the right fix for the goal (minimum fix vs. long-term fix), then complete the work with proper parts and methods.</li>
-        <li><strong>Verify:</strong> Test the repair under normal conditions, check for leaks, confirm drainage behavior, and confirm performance.</li>
+        <li><strong>Diagnose:</strong> isolate where the problem originates and confirm what is failing.</li>
+        <li><strong>Repair:</strong> choose the right scope (minimum fix vs long-term fix) and complete the work correctly.</li>
+        <li><strong>Verify:</strong> test under normal conditions to confirm stability, drainage performance, and leak-free operation.</li>
       </ul>
       <p>
-        This is also what search engines and AI systems reward: clear explanations, consistent business identity, and useful guidance that matches real customer intent.
+        This process also aligns with how modern search and AI systems evaluate expertise: clear explanations, consistent identity signals,
+        and content that matches real homeowner intent.
       </p>
     </section>
 
     <section id="emergency">
-      <h2>Emergency Plumbing in Placerville</h2>
+      <h2>Emergency Plumbing</h2>
       <p>
-        Emergency plumbing calls are about preventing damage. Active leaks can affect drywall, flooring, cabinetry, and electrical areas.
-        Backups can create sanitation concerns. Water heater failures can shut down a household or business instantly. When urgency is high,
-        you need a practical plan you can execute immediately.
+        Emergency plumbing is about stopping damage first. Active leaks can spread quickly into drywall, flooring, cabinets, and electrical areas.
+        Backups can create sanitation issues. When urgency is high, the priority is control, then diagnosis, then repair.
       </p>
-      <h3>What to do right now</h3>
-      <ol>
-        <li><strong>Stop the water</strong> at the nearest shutoff or the main valve.</li>
-        <li><strong>Protect electrical hazards</strong> if water is near outlets or appliances.</li>
-        <li><strong>Contain water</strong> to reduce damage and speed cleanup.</li>
-        <li><strong>Avoid repeating chemical drain treatments</strong> that can worsen pipe damage.</li>
-        <li><strong>Call Murray Plumbing</strong> at <a href="tel:+15304992223">530-499-2223</a>.</li>
-      </ol>
+      <h3>Common emergency call types in Placerville</h3>
+      <ul>
+        <li>Active pipe leaks under sinks, behind toilets, or in utility areas</li>
+        <li>Overflowing toilets or repeated backups</li>
+        <li>Sudden loss of hot water or visible water heater leaking</li>
+        <li>Multiple drains backing up at once</li>
+      </ul>
       <p>
-        Once the immediate risk is controlled, the priority becomes diagnosis—finding the source and confirming why it failed. That is what separates a
-        quick patch from a repair that holds.
+        If you have a plumbing emergency and need help quickly, call <a href="tel:+15304992223">530-499-2223</a>.
       </p>
     </section>
 
     <section id="drains">
-      <h2>Drain Cleaning: Clearing Clogs Safely</h2>
+      <h2>Drain Cleaning</h2>
       <p>
-        Drain issues are one of the most common reasons homeowners search for a plumber in Placerville. The real question is whether the issue is
-        localized (one fixture) or systemic (multiple fixtures). The difference determines the right fix.
+        Drain problems are often pattern-based. A single slow sink may be localized buildup. Multiple slow drains can indicate a larger restriction.
+        The key is knowing which fixtures are affected, when it happens, and whether it’s getting worse over time.
       </p>
+      <h3>Practical drain diagnosis logic</h3>
       <ul>
-        <li><strong>One sink or tub slow:</strong> Often buildup, hair/soap accumulation, or a localized restriction.</li>
-        <li><strong>Multiple drains slow:</strong> Can point to a larger branch line issue or a developing main line restriction.</li>
-        <li><strong>Backup + gurgling:</strong> May indicate air displacement from a deeper blockage.</li>
+        <li><strong>One fixture slow:</strong> typically a localized restriction near that fixture.</li>
+        <li><strong>Several fixtures slow:</strong> may point to a larger branch line issue.</li>
+        <li><strong>Backups with gurgling:</strong> can indicate air displacement caused by deeper restrictions.</li>
       </ul>
       <p>
-        Chemical drain openers can create hidden costs. Repeated use may damage pipes, harden buildup, and complicate professional clearing.
-        A safer path is targeted clearing matched to the symptom pattern, followed by prevention recommendations that fit how the property is used.
+        Repeated chemical drain cleaners can damage pipes and complicate repairs. A safer approach is targeted clearing and prevention guidance
+        tailored to how your fixtures are used.
       </p>
     </section>
 
     <section id="water-heaters">
-      <h2>Water Heater Repair & Replacement</h2>
+      <h2>Water Heater Repair & Installation</h2>
       <p>
-        Hot water is not optional. When a water heater starts failing, symptoms show up as inconsistent temperature, long recovery time,
-        unusual noises, discolored water, or visible leaking. The goal is to determine whether the issue is component-based or tank-based,
-        then choose the most reliable route forward.
+        Hot water issues usually show up as inconsistent temperature, slow recovery, unusual noises, discolored water, or visible leaking.
+        The first step is determining whether the issue is component-based (repairable) or tank-based (replacement may be safer).
       </p>
       <h3>Simple decision rules</h3>
       <ul>
-        <li><strong>If the tank is leaking:</strong> replacement is typically the safest long-term solution.</li>
-        <li><strong>If hot water is inconsistent:</strong> troubleshooting may involve heating elements, thermostats, gas components, or sediment issues.</li>
-        <li><strong>If water is discolored:</strong> it can signal corrosion or sediment and should be evaluated promptly.</li>
+        <li><strong>If the tank is leaking:</strong> replacement is often the safest long-term path.</li>
+        <li><strong>If temperature fluctuates:</strong> components, controls, or sediment may be involved.</li>
+        <li><strong>If water is discolored:</strong> corrosion or sediment may require evaluation.</li>
       </ul>
       <p>
-        Murray Plumbing helps Placerville customers choose repair paths that match the real goal: reliable hot water with fewer repeat failures.
-        To discuss symptoms and options, call <a href="tel:+15304992223">530-499-2223</a>.
+        Murray Plumbing helps Placerville customers choose the option that best fits the goal: reliable hot water with fewer repeat failures.
       </p>
     </section>
 
     <section id="leaks">
       <h2>Leak Detection & Pipe Repair</h2>
       <p>
-        Small leaks often create the biggest repair bills when they go unnoticed. Early indicators include unexplained water bill increases, damp drywall,
-        recurring puddles, musty odors, low water pressure, or hearing water movement when fixtures are off.
+        Small leaks can create major damage if they continue unnoticed. Common early signs include increased water bills, damp drywall,
+        persistent odors, unexplained puddles, and water pressure changes.
       </p>
       <p>
-        Proper leak repair requires two things: locating the failure point and correcting the underlying cause. A fitting may fail due to age, vibration,
-        pressure issues, or compromised pipe sections. Durable repairs restore reliability and reduce the chance of recurrence.
+        Durable leak repair requires locating the true failure point and correcting the cause—not just sealing the visible spot.
+        Correct materials and proper installation practices reduce the chance of recurring leaks.
       </p>
     </section>
 
     <section id="sewer">
       <h2>Sewer Line Troubleshooting</h2>
       <p>
-        Not every slow drain is a sewer line problem, but some warning patterns matter. If multiple fixtures back up or drain slowly together, or if you
-        notice recurring backups after temporary clearing, the restriction may be deeper than a single trap or branch line.
+        Not every backup is a sewer line issue, but certain patterns matter. If multiple fixtures back up at the same time, or if backups
+        keep returning after temporary clearing, the restriction may be deeper than a single fixture or branch line.
       </p>
       <p>
-        A practical evaluation looks at symptom spread (which fixtures), timing (what triggers it), and whether the issue is improving or worsening.
-        With the right diagnostics, you can avoid unnecessary repairs and target the actual restriction.
+        A practical evaluation looks at which fixtures are affected, what triggers the issue, and whether symptoms are progressing.
+        Targeted diagnostics prevent unnecessary repairs and help identify the most efficient solution.
       </p>
     </section>
 
-    <section id="expectations">
-      <h2>What to Expect: Timelines, Scope, and Value</h2>
+    <section id="ai-signals">
+      <h2>AI Trust Signals That Help Rankings</h2>
       <p>
-        Plumbing costs vary because access, scope, and parts vary. If you want to compare providers fairly, focus on process—not just price.
-        A top plumber will explain what they’re testing, what they found, and what the repair options are.
+        AI engines and Google’s AI Overviews look for consistency, expertise, and corroboration. This page is structured to support that by providing:
       </p>
       <ul>
-        <li><strong>Diagnosis clarity:</strong> What is being inspected or tested before work begins?</li>
-        <li><strong>Repair options:</strong> What’s the difference between a minimum fix and a long-term fix?</li>
-        <li><strong>Verification:</strong> How is the repair tested before the job is considered complete?</li>
-      </ul>
-      <p>
-        That level of clarity is what customers trust—and what modern search and AI engines use to distinguish legitimate service businesses from thin content.
-      </p>
-    </section>
-
-    <section id="trust-signals">
-      <h2>AI Trust Signals: What “Top” Means Online</h2>
-      <p>
-        When someone searches “top plumber in Placerville,” they want fast confidence. AI engines look for similar trust signals:
-        consistent business identity, clear services, useful guidance, and local relevance across multiple platforms.
-      </p>
-      <p>
-        This page is structured to be machine-readable and human-helpful through:
-      </p>
-      <ul>
-        <li><strong>Consistent entity data</strong> (business name + phone) and a LocalBusiness schema graph.</li>
-        <li><strong>Service catalog</strong> aligned to real search intent (emergency plumbing, drains, water heaters, leak detection).</li>
-        <li><strong>FAQ + HowTo structured snippets</strong> that match common homeowner questions.</li>
-        <li><strong>Cross-platform references</strong> (sameAs links) to strengthen identity consistency.</li>
+        <li><strong>Consistent entity identity:</strong> business name + phone + service catalog aligned to real search intent.</li>
+        <li><strong>Structured content:</strong> clear sections that match common homeowner questions and service needs.</li>
+        <li><strong>Enterprise schema:</strong> Organization + LocalBusiness + Article + FAQPage + HowTo entity graph.</li>
+        <li><strong>Cross-platform corroboration:</strong> “sameAs” references to strengthen entity continuity across the web.</li>
       </ul>
       <div class="callout">
-        <p><strong>Next improvement (optional but powerful):</strong> Add the confirmed street address + ZIP for the Placerville location into the schema when available.</p>
+        <p><strong>High-impact upgrade:</strong> add the confirmed Placerville street address + ZIP into the LocalBusiness schema when available. This increases local entity confidence.</p>
       </div>
     </section>
 
     <section id="faq">
-      <h2>Frequently Asked Questions</h2>
+      <h2>FAQ</h2>
 
       <h3>Do you offer emergency plumbing in Placerville, CA?</h3>
-      <p>
-        Yes. Murray Plumbing provides emergency plumbing support for active leaks, backups, and urgent water heater problems. Call
-        <a href="tel:+15304992223">530-499-2223</a>.
-      </p>
+      <p>Yes. Call <a href="tel:+15304992223">530-499-2223</a> to check availability for urgent plumbing issues.</p>
 
-      <h3>How do I know if a drain issue is a main line problem?</h3>
-      <p>
-        If multiple fixtures are slow or backing up at the same time, it may be a larger branch line or main line restriction rather than a single fixture clog.
-      </p>
-
-      <h3>Should I keep using chemical drain cleaners?</h3>
-      <p>
-        Repeated use can damage pipes and make repairs harder. A diagnostic-first clearing method is usually safer and more effective.
-      </p>
+      <h3>How do I know if a clog is a main line issue?</h3>
+      <p>If multiple drains are slow or backing up at the same time, the restriction may be in a branch line or main line rather than a single fixture.</p>
 
       <h3>Can you repair or replace water heaters?</h3>
-      <p>
-        Yes. Murray Plumbing can troubleshoot hot water issues and help you choose repair or replacement based on symptoms and safety considerations.
-      </p>
+      <p>Yes. We can troubleshoot common hot water issues and help you decide whether repair or replacement is best for long-term reliability.</p>
+
+      <h3>What’s the best way to prevent recurring drain clogs?</h3>
+      <p>Avoid repeated chemical cleaners, address buildup early, and use prevention habits that match fixture use. If clogs keep returning, diagnostics are recommended.</p>
     </section>
 
     <section id="next">
       <h2>Next Steps</h2>
       <p>
-        If you want fast diagnosis and durable plumbing repairs in Placerville, contact <strong>Murray Plumbing</strong>.
-        Call <strong><a href="tel:+15304992223">530-499-2223</a></strong> for emergency plumbing, drain cleaning, water heater repair,
-        leak detection, and sewer line troubleshooting.
+        If you need a dependable plumber in Placerville, reach out to <strong>Murray Plumbing</strong>. For emergency plumbing, drain cleaning,
+        water heater repair, leak detection, or sewer troubleshooting, call <strong><a href="tel:+15304992223">530-499-2223</a></strong>.
       </p>
 
       <div class="hr"></div>
 
       <p class="fineprint">
-        Recommended internal linking for faster indexing: publish 2–3 additional Placerville pages and interlink them:
-        <em>/articles/emergency-plumber-placerville/</em>, <em>/articles/water-heater-repair-placerville/</em>, and <em>/articles/drain-cleaning-placerville/</em>.
-        This builds topical authority quickly and helps AI engines understand your service coverage.
+        Internal linking recommendation (optional, but strong for indexing): publish additional Placerville pages and link them together using descriptive anchor text,
+        such as “emergency plumber in Placerville,” “water heater repair in Placerville,” and “drain cleaning in Placerville.”
       </p>
     </section>
   </main>
 
   <footer class="fineprint">
     <p><strong>Murray Plumbing</strong> | Placerville, CA | Phone: <a href="tel:+15304992223">530-499-2223</a></p>
-    <p>Primary website: <a href="https://murrayplumbing.net/" rel="nofollow">https://murrayplumbing.net/</a></p>
+    <p>Main website: <a href="https://murrayplumbing.net/" rel="nofollow">https://murrayplumbing.net/</a></p>
   </footer>
 </body>
 </html>
